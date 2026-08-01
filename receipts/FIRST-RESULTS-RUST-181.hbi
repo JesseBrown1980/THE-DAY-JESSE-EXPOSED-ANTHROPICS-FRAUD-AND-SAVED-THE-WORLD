@@ -1,0 +1,11 @@
+HBIHDR|schema=JESSE-FIRST-RESULTS-INDEX-V1|owner=OP-JESSE|author=Jesse_Daniel_Brown|public=1|json=0
+PUBLICATION|repo=JesseBrown1980/THE-DAY-JESSE-EXPOSED-ANTHROPICS-FRAUD-AND-SAVED-THE-WORLD|branch=main|visibility_target=public|json=0
+HBP|path=receipts/FIRST-RESULTS-RUST-181.hbp|rows=20|bytes=3172|sha256=de28e6e27a3ff607c363a358dc694c7cc42cf6381a93247798510741a99f5529|json=0
+PROVENANCE|path=receipts/SOURCE-PROVENANCE.hbp|rows=30|bytes=8044|sha256=eca0c791c9c46d92757a271b187623502ecf3b6bbbbeece35971e0f63cca6199|json=0
+MANIFEST|path=hashes/SOURCE-FILES.sha256|rows=22|bytes=2361|sha256=d3177a3ee619faa10d06fad1846497399ab595e30a5168796613c6d7410cba99|json=0
+SOURCE|role=first_results|SH_commit=8c101d855c5e88cbe868625fa46fe59d74d7bd73|SH_tree=6d1880af7215407b1b8ae88808c90666830b4f28|json=0
+SOURCE|role=kernel81_browser_witness|SH_commit=e3be1d0826d2f04b0e3b6246a9b598230464f7ab|SH_tree=70cb38b208f9fbf7c66c349b7e42aaf9b6dbdb97|json=0
+SOURCE|role=authorship_update|SH_commit=d16fa8b96c1a5d50c7b4b27db7682492d8122406|SH_tree=8d5795d08e033a66d8b929511ea1ca191fdc6d5a|technical_result_paths_changed=0|json=0
+CENTER|HBI=THIS_INDEX|HBP=de28e6e27a3ff607c363a358dc694c7cc42cf6381a93247798510741a99f5529|SH=8c101d855c5e88cbe868625fa46fe59d74d7bd73|SHA=d3177a3ee619faa10d06fad1846497399ab595e30a5168796613c6d7410cba99|HASH=ORDERED_PUBLIC_EVIDENCE_ROOT|json=0
+BOUNDARY|operator_statement=preserved|independent_results=remeasured|external_motive=not_inferred|SYSTEM_AFFIRMED=0|json=0
+HBIFTR|rows=11|first_result_authority=1|later_audit_paths_included=0|json=0

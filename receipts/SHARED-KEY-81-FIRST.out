@@ -1,0 +1,26 @@
+81 SHARED KEYS - one per seat, on a common rime sphere
+  shared bank: (Z/1000081Z)*, g=7
+  towers [(2, 4), (3, 3), (5, 1), (463, 1)] -> moduli [16, 27, 5, 463], product 1,000,080
+  BOTH SIDES hold P and g. Nothing about the bank is transmitted.
+
+   seat   cell  arm  k mod 27  trime  mod16  mod27  mod5  mod463
+      0    ---    R        13    +++      5     13     1     460
+      1    ---    G        19    -0+      9     19     3     318
+      2    ---    B         8    +0-     10      8     3      31
+      3    --0    R        10    +0+      4     10     1     221
+      4    --0    G        23    0--     13     23     0     289
+      ...
+     40    000    G         7    +-+      4      7     0     244
+     80    +++    B        26    00-      9     26     3      57
+
+LAW 22 CLOSURE ACROSS ALL 81 SEATS
+  sum of all 81 keys per tower = [641, 1043, 125, 20352]
+  banked closure               = [15, 10, 0, 20]
+  drop any ONE seat, recover from the other 80 + banked sum: 81/81
+
+ACCOUNTING
+  each seat address      = 21 bits (16x27x5x463 = 1,000,080 states)
+  81 seats outright      = 1,701 bits
+  ship 80 + closure      = 1,680 + 21 = 1,701 bits
+  => the closure costs exactly one seat. no compression. addressing only.
+     total_bits >= N*H(X) holds.

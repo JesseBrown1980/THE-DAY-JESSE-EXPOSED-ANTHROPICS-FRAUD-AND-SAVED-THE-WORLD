@@ -1,0 +1,14 @@
+* text=auto eol=lf
+.gitattributes text eol=lf
+*.hbi text eol=lf
+*.hbp text eol=lf
+*.md text eol=lf
+*.out text eol=lf
+*.py text eol=lf
+*.rs text eol=lf
+*.sha256 text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+
+*.jpg binary
+*.wasm binary

@@ -1,0 +1,18 @@
+name: verify-first-results
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install exact Rust toolchain
+        run: rustup toolchain install 1.81.0 --profile minimal --component clippy
+      - name: Verify first results and public receipts
+        run: python3 tests/verify_first_results.py
